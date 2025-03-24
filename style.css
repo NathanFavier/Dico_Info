@@ -1,0 +1,170 @@
+/* nativ content of the first page*/
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(35,35,35);
+}
+
+#top_page{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: gray;
+	width: 100%;
+	border-radius: 5px;
+}
+
+#title_div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 48%;
+}
+
+#title{
+	display: flex;
+	color: black;
+	flex-wrap: wrap;
+	text-decoration: underline;
+}
+
+#query_param{
+	display: flex;
+	width: 48%;
+	justify-content: space-evenly;
+}
+
+#searchbar{
+	display: flex;
+	width: 25%;
+}
+
+#filter_opt{
+	display: flex;
+	justify-content: space-evenly;
+	width: 30%;
+}
+
+
+#query_content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 90%;
+}
+
+#bottom_page{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: gray;
+	width: 95%;
+	border-radius: 5px;
+	margin-top: 8%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+#bottom_text{
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%;
+	font-weight: bold;
+}
+
+#b_add_def{
+	display: flex;
+}
+
+/* dynamic content of the first page*/
+.def_box{
+	display: flex;
+    margin-top: 1.5%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	background-color: rgb(175,175,175);
+	width: 90%;
+	border-radius: 10px;
+	flex-direction: column;
+}
+
+.expression{
+	display: flex;
+}
+
+.def{
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 2%;
+	width: 97%;
+	vertical-align: top;
+}
+
+/* content of the adding page*/
+#adding_form{
+	display: flex;
+	flex-direction: column;
+	background-color: gray;
+	padding: 1%;
+	border-radius: 10px;
+	width: 80%;
+}
+
+#top_add_page{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	height: 17.5%;
+}
+
+#add_exp_div{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: rgb(175,175,175);
+	padding: 1%;
+	border-radius: 5px;
+}
+
+#add_filters_div{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	background-color: rgb(175,175,175);
+	padding: 1%;
+	border-radius: 5px;
+}
+
+#add_filters_bottom_div{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+#add_def_div{
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(175,175,175);
+	padding: 1%;
+	border-radius: 5px;
+	height: 80%;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+}
+
+#add_def{
+	display: flex;
+	min-height: 10em;
+	max-width: 100%;
+}
+
+#add_button{
+	display: flex;
+	width: 11%
+}
